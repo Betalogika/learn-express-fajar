@@ -5,3 +5,9 @@
 4. git push
 
 belajar prosedurnya yah jangan sampe dilupa
+
+git push -u origin main => meaning
+git push -f -u origin main => meaning
+git push -f origin main => meaning
+git commit -am && -m => meaning
+git stage && unstage => meaning
