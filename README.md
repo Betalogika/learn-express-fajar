@@ -11,3 +11,4 @@ git push -f -u origin main => meaning
 git push -f origin main => meaning
 git commit -am && -m => meaning
 git stage && unstage => meaning
+git merge => meaning
