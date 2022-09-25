@@ -6,7 +6,6 @@ const emailFajar = require('../login/email/fajar.js')
 const emailBudi = require('../login/email/budi.js')
 const settingRoute = require('./nilai/mahasiswa.js')
 
-
 app.use('/emailbudi',emailBudi)
 app.use('/emailfajar', emailFajar)
 app.use('/nilai', settingRoute)
