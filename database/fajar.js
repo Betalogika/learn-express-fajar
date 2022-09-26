@@ -24,7 +24,7 @@ app.get('/dataku',(req,res) =>{
     })
 })
 
-
+//app listen
 app.listen(port,() =>{
     console.log(`port ${port} siap`)
 })
