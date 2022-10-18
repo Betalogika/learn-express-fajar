@@ -8,7 +8,6 @@ const db = mysql.createConnection({
     database : 'database_pertama'
 })
 
-
 db.connect(function(err){
     if (err) throw err
     console.log('terhubung di database')

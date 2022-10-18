@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended : true}))
 app.use(bodyParser.json())
 
 //panggil router
-var routes = require('/router.js')
+var routes = require('./router.js')
 routes(app)
 
 app.listen(port, ()=>{
